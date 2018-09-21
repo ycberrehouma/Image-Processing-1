@@ -68,7 +68,7 @@ image by the Otsu’s threshold value. Show the binary image.
 the original lena, the 64 x 64 lena, and the up-sampled 256 x 256. Hint command: “help imresize”
 
 (d) Read lena_256.bmp, convolve the image with the mask
-1/9 *<br>[1 1 1
+1/9 * <br>[1 1 1
        <br>1 1 1
        <br>1 1 1]
 and show that it performs
