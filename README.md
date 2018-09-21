@@ -7,7 +7,9 @@ Style,” choose “Tight” instead of “Loose.” Click “OK.”
  
 1.1 (20 points) image read, display, write and image information
 (a) Read the attached image “barbara.jpg” and display it.  Hint commands: >> help imshow >> help imread
+
 (b) Show the image information by typing imfinfo('barbara.jpg')
+
 (c) Write the Barbara image into your hard disk with a name ‘barbara_mine.jpg.’ Read and display
 the saved image. Hint command: ‘help imwrite’.
 (d) An image returned by “imread()” is an array of RGB color. Use Figures window, and under “Tools”
