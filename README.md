@@ -6,7 +6,7 @@ Style,” choose “Tight” instead of “Loose.” Click “OK.”
 
 Required images: barbara.jpg, Lena.jpg, cameraman.jpg, lena_256.bmp
  
-1.1 (20 points) image read, display, write and image information
+1.1  image read, display, write and image information
 
 (a) Read the attached image “barbara.jpg” and display it.  Hint commands: >> help imshow >> help imread
 
@@ -21,7 +21,7 @@ Redo this as pointing the cursor to the location X:380, Y:300.
 
 (e) How many rows, column, and channels of the Barbara image? Hint command: ‘help size’
 
-1.2 (20 points) image type and basic color space
+1.2  image type and basic color space
 
 (a) Convert the color image into grayscale (variable name img_gray). Save the grayscale image with
 a name “barbara_gray.png.” Show the grayscale image. Compare img_gray with img_gray2 that
@@ -40,7 +40,7 @@ the border for all white images, so we can see that a white image is enclosed.
 image into double type by function “im2double” or “img_b=double(img_gray)/255;” Display the
 double type grayscale image.
 
-1.3 (20 points) pixel level operations
+1.3  pixel level operations
 
 (a) Read the 512 x 512 Lena image as F and crop its center (row from 170 to 340 and column from
 170 to 340) into a 171 x 171 (store in variable “Lena_center”). Show the cropped image.
@@ -53,7 +53,7 @@ double type grayscale image.
 into “cam_man” and add both “Lena_center” and “cam_man” together by function “imadd”. Show
 the combined image.
 
-1.4 (20 points) image binarization, pooling, and convolution
+1.4  image binarization, pooling, and convolution
 
 (a) Read the “lena_256.bmp” which is 256 x 256 resolution as variable lena. Change lena into a
 binary image, which has only two values: 0 and 1. Select the gray level which is greater than 200 or
@@ -68,40 +68,18 @@ image by the Otsu’s threshold value. Show the binary image.
 the original lena, the 64 x 64 lena, and the up-sampled 256 x 256. Hint command: “help imresize”
 
 (d) Read lena_256.bmp, convolve the image with the mask
-111
-1
-111
-9
-111
- 
-  
- 
-   
+1/9 *<br>[1 1 1
+       <br>1 1 1
+       <br>1 1 1]
 and show that it performs
 averaging operation which results in blurring of the image. Also analyze the impact of increasing the
 size of the mask to
-
-5 5 
-; that is, the mask is
-11111
-11111
-1
-11111
-25
-11111
-11111
- 
- 
- 
-  
- 
- 
-   
+5*5
 . Provide your source code and
 show the three images. Hint: use MATLAB functions “ones” to generate the matrix and use “conv2”
 to do the convolution.
 
-1.5 (20 points) background and research paper topic
+1.5  background and research paper topic
 
 (a) Describe your previous BS/MS major and educational background.
 
