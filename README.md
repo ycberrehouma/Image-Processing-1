@@ -6,7 +6,7 @@ Style,” choose “Tight” instead of “Loose.” Click “OK.”
 
 Required images: barbara.jpg, Lena.jpg, cameraman.jpg, lena_256.bmp
  
-<b>1.1  image read, display, write and image information</b>
+<b><h2>1.1  image read, display, write and image information</h2></b>
 
 (a) Read the attached image “barbara.jpg” and display it.  Hint commands: >> help imshow >> help imread
 
@@ -21,7 +21,7 @@ Redo this as pointing the cursor to the location X:380, Y:300.
 
 (e) How many rows, column, and channels of the Barbara image? Hint command: ‘help size’
 
-<b>1.2  image type and basic color space</b>
+<b><h2>1.2  image type and basic color space</h2></b>
 
 (a) Convert the color image into grayscale (variable name img_gray). Save the grayscale image with
 a name “barbara_gray.png.” Show the grayscale image. Compare img_gray with img_gray2 that
@@ -40,7 +40,7 @@ the border for all white images, so we can see that a white image is enclosed.
 image into double type by function “im2double” or “img_b=double(img_gray)/255;” Display the
 double type grayscale image.
 
-<b>1.3  pixel level operations</b>
+<b><h2>1.3  pixel level operations</h2></b>
 
 (a) Read the 512 x 512 Lena image as F and crop its center (row from 170 to 340 and column from
 170 to 340) into a 171 x 171 (store in variable “Lena_center”). Show the cropped image.
@@ -53,7 +53,7 @@ double type grayscale image.
 into “cam_man” and add both “Lena_center” and “cam_man” together by function “imadd”. Show
 the combined image.
 
-<b>1.4  image binarization, pooling, and convolution</b>
+<b><h2>1.4  image binarization, pooling, and convolution</h2></b>
 
 (a) Read the “lena_256.bmp” which is 256 x 256 resolution as variable lena. Change lena into a
 binary image, which has only two values: 0 and 1. Select the gray level which is greater than 200 or
@@ -79,7 +79,7 @@ size of the mask to
 show the three images. Hint: use MATLAB functions “ones” to generate the matrix and use “conv2”
 to do the convolution.
 
-<b>1.5  background and research paper topic</b>
+<b><h2>1.5  background and research paper topic</h2></b>
 
 (a) Describe your previous BS/MS major and educational background.
 
